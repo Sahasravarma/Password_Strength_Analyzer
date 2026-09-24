@@ -68,7 +68,8 @@ The password is analyzed locally and is **not stored**. The project does not use
 * Added strength classification and suggestions
 * Tested and documented the project
 
-##  Project Status
+## 📝 Conclusion
 
-**Completed – Python Mini Project**
+The **Password Strength Analyzer** is a simple Python-based project that helps users understand the security level of their passwords. It uses multiple checks to identify weak patterns and provides suggestions for creating stronger and more secure passwords.
+
 
