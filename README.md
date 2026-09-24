@@ -43,7 +43,7 @@ help users create stronger passwords.
 
 ### 1. Clone the repository
 
-git clone https://github.com/YOUR-USERNAME/password-strength-analyzer.git
+git clone https://github.com/Sahasravarma/Password_Strength_Analyzer
 
 ### 2. Open the project folder
 
