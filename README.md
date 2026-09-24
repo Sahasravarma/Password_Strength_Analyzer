@@ -1,100 +1,74 @@
-# Password Strength Analyzer
+# 🔐 Password Strength Analyzer
 
-## Project Overview
+A Python-based mini project that analyzes password strength using multiple security checks and provides suggestions to improve password security.
 
-Password Strength Analyzer is a Python-based mini project that evaluates
-the strength of a password using multiple security checks.
+## ✨ Features
 
-The application analyzes password length, uppercase and lowercase letters,
-numbers, special characters, repeated characters, predictable sequences,
-common passwords, and character diversity.
+* Password length and character diversity analysis
+* Uppercase, lowercase, numbers, and special character checks
+* Repeated character detection
+* Predictable sequence detection
+* Common password detection
+* Security score from **0–10**
+* Strength classification: Very Weak to Very Strong
+* Suggestions to improve weak passwords
+* Option to analyze multiple passwords
+* Passwords are analyzed locally and not stored
 
-It generates a security score from 0 to 10 and provides suggestions to
-help users create stronger passwords.
+## 🛠️ Tech Stack
 
-## Features
+* **Python 3**
+* `re` (Regular Expressions)
+* Lists & Strings
+* Conditional Statements & Loops
+* Console-based Input/Output
 
-- Password length analysis
-- Uppercase letter detection
-- Lowercase letter detection
-- Number detection
-- Special character detection
-- Repeated character detection
-- Predictable sequence detection
-- Common password detection
-- Character diversity checking
-- Security score from 0 to 10
-- Password strength classification
-- Suggestions for improving weak passwords
-- Option to analyze multiple passwords
-- Passwords are not stored
+## ⚙️ How to Run
 
-## Tech Stack
+### Clone the repository
 
-- Python 3
-- Regular Expressions (re module)
-- Lists
-- Strings
-- Conditional statements
-- Loops
-- Console-based input/output
+```bash
+git clone 
+```
 
-## Setup
+### Open the project
 
-### 1. Clone the repository
-
-git clone https://github.com/Sahasravarma/Password_Strength_Analyzer
-
-### 2. Open the project folder
-
+```bash
 cd password-strength-analyzer
+```
 
-### 3. Run the program
+### Run the program
 
+```bash
 python password_strength_analyzer.py
+```
 
-## Environment Variables
+No external packages or APIs are required.
 
-No environment variables are required for this project.
+## 📊 Security Score
 
-## API Notes
+| Score | Strength    |
+| ----- | ----------- |
+| 9–10  | Very Strong |
+| 7–8   | Strong      |
+| 5–6   | Medium      |
+| 3–4   | Weak        |
+| 0–2   | Very Weak   |
 
-This project does not use any external APIs.
+## 🔒 Security
 
-## Database Notes
+The password is analyzed locally and is **not stored**. The project does not use an external API or database.
 
-This project does not use a database.
-Passwords are analyzed locally and are not stored.
+## 👤 Team Member
 
-## How It Works
+**Sahasra**
 
-1. The user enters a password.
-2. The program checks the password against multiple security rules.
-3. A score from 0 to 10 is calculated.
-4. The password is classified as Very Weak, Weak, Medium, Strong, or Very Strong.
-5. Suggestions are displayed if security checks are not satisfied.
-6. The user can analyze another password.
+* Developed the Python application
+* Implemented security checks and scoring
+* Added strength classification and suggestions
+* Tested and documented the project
 
-## Security Score
+##  Project Status
 
-| Score | Strength |
-|------:|----------|
-| 9–10 | Very Strong |
-| 7–8 | Strong |
-| 5–6 | Medium |
-| 3–4 | Weak |
-| 0–2 | Very Weak |
+**Completed – Python Mini Project**
 
-## Team Member Contributions
-
-### Sahasra
-- Designed the Password Strength Analyzer concept.
-- Developed the Python program.
-- Implemented password security checks.
-- Implemented the 0–10 scoring system.
-- Implemented strength classification and suggestions.
-- Tested the application and prepared project documentation.
-
-## Project Status
-
-Completed – Python Mini Project
