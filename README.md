@@ -25,10 +25,10 @@ A Python-based mini project that analyzes password strength using multiple secur
 
 ## ⚙️ How to Run
 
-### Clone the repository
+### Clone the repository 
 
 ```bash
-git clone 
+git clone https://github.com/Sahasravarma/Password_Strength_Analyzer
 ```
 
 ### Open the project
